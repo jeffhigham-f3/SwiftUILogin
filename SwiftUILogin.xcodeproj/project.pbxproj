@@ -19,7 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		6F0D07D324E8081800E698D1 /* SwiftUIProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F0D07D324E8081800E698D1 /* SwiftUILogin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUILogin.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6F0D07D624E8081800E698D1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6F0D07D824E8081800E698D1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		6F0D07DA24E8081800E698D1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -54,7 +54,7 @@
 		6F0D07D424E8081800E698D1 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				6F0D07D324E8081800E698D1 /* SwiftUIProject.app */,
+				6F0D07D324E8081800E698D1 /* SwiftUILogin.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -87,9 +87,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		6F0D07D224E8081800E698D1 /* SwiftUIProject */ = {
+		6F0D07D224E8081800E698D1 /* SwiftUILogin */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6F0D07E724E8081900E698D1 /* Build configuration list for PBXNativeTarget "SwiftUIProject" */;
+			buildConfigurationList = 6F0D07E724E8081900E698D1 /* Build configuration list for PBXNativeTarget "SwiftUILogin" */;
 			buildPhases = (
 				6F0D07CF24E8081800E698D1 /* Sources */,
 				6F0D07D024E8081800E698D1 /* Frameworks */,
@@ -99,9 +99,9 @@
 			);
 			dependencies = (
 			);
-			name = SwiftUIProject;
+			name = SwiftUILogin;
 			productName = SwiftUIProject;
-			productReference = 6F0D07D324E8081800E698D1 /* SwiftUIProject.app */;
+			productReference = 6F0D07D324E8081800E698D1 /* SwiftUILogin.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -119,7 +119,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 6F0D07CE24E8081800E698D1 /* Build configuration list for PBXProject "SwiftUIProject" */;
+			buildConfigurationList = 6F0D07CE24E8081800E698D1 /* Build configuration list for PBXProject "SwiftUILogin" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -132,7 +132,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				6F0D07D224E8081800E698D1 /* SwiftUIProject */,
+				6F0D07D224E8081800E698D1 /* SwiftUILogin */,
 			);
 		};
 /* End PBXProject section */
@@ -335,7 +335,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		6F0D07CE24E8081800E698D1 /* Build configuration list for PBXProject "SwiftUIProject" */ = {
+		6F0D07CE24E8081800E698D1 /* Build configuration list for PBXProject "SwiftUILogin" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6F0D07E524E8081900E698D1 /* Debug */,
@@ -344,7 +344,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6F0D07E724E8081900E698D1 /* Build configuration list for PBXNativeTarget "SwiftUIProject" */ = {
+		6F0D07E724E8081900E698D1 /* Build configuration list for PBXNativeTarget "SwiftUILogin" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6F0D07E824E8081900E698D1 /* Debug */,
