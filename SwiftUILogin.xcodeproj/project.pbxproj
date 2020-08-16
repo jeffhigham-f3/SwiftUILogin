@@ -13,6 +13,9 @@
 		6F0D07DD24E8081900E698D1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6F0D07DC24E8081900E698D1 /* Assets.xcassets */; };
 		6F0D07E024E8081900E698D1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6F0D07DF24E8081900E698D1 /* Preview Assets.xcassets */; };
 		6F0D07E324E8081900E698D1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6F0D07E124E8081900E698D1 /* LaunchScreen.storyboard */; };
+		6F6C27B224E95FD100E36B96 /* SigninLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F6C27B124E95FD100E36B96 /* SigninLabel.swift */; };
+		6F6C27B424E9600700E36B96 /* LoginForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F6C27B324E9600700E36B96 /* LoginForm.swift */; };
+		6F6C27B624E9607A00E36B96 /* LoginScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F6C27B524E9607A00E36B96 /* LoginScreen.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		6F0D07DF24E8081900E698D1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		6F0D07E224E8081900E698D1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6F0D07E424E8081900E698D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6F6C27B124E95FD100E36B96 /* SigninLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SigninLabel.swift; sourceTree = "<group>"; };
+		6F6C27B324E9600700E36B96 /* LoginForm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginForm.swift; sourceTree = "<group>"; };
+		6F6C27B524E9607A00E36B96 /* LoginScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginScreen.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +65,9 @@
 				6F0D07D624E8081800E698D1 /* AppDelegate.swift */,
 				6F0D07D824E8081800E698D1 /* SceneDelegate.swift */,
 				6F0D07DA24E8081800E698D1 /* ContentView.swift */,
+				6F6C27B524E9607A00E36B96 /* LoginScreen.swift */,
+				6F6C27B124E95FD100E36B96 /* SigninLabel.swift */,
+				6F6C27B324E9600700E36B96 /* LoginForm.swift */,
 				6F0D07DC24E8081900E698D1 /* Assets.xcassets */,
 				6F0D07E124E8081900E698D1 /* LaunchScreen.storyboard */,
 				6F0D07E424E8081900E698D1 /* Info.plist */,
@@ -146,9 +155,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6F6C27B424E9600700E36B96 /* LoginForm.swift in Sources */,
+				6F6C27B224E95FD100E36B96 /* SigninLabel.swift in Sources */,
 				6F0D07D724E8081800E698D1 /* AppDelegate.swift in Sources */,
 				6F0D07D924E8081800E698D1 /* SceneDelegate.swift in Sources */,
 				6F0D07DB24E8081800E698D1 /* ContentView.swift in Sources */,
+				6F6C27B624E9607A00E36B96 /* LoginScreen.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
