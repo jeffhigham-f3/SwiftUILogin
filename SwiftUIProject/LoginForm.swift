@@ -32,8 +32,7 @@ struct LoginForm: View {
             LoginButton().padding(.bottom)
             RememberMeToggle().padding(.bottom)
             AlternateLoginText()
-            SocialButtons()
-            
+            SocialButtons()            
         }
     }
 }

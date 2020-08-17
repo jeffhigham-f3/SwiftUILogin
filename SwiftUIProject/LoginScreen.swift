@@ -23,15 +23,14 @@ struct LoginScreen: View {
             
             
             VStack{
-                ScrollView( showsIndicators: false ){
-                    
-                    SigninLabel()
-                    LoginForm()
-                    SignInText()
-                }
+                SigninLabel()
+                LoginForm()
+                Spacer()
+                SignInText()
             }
             .frame(width: UIScreen.main.bounds.size.width * 0.85)
             .frame(maxWidth: 500)
+            
         }
         
         
