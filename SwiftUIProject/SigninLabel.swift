@@ -9,15 +9,21 @@
 import SwiftUI
 
 struct SigninLabel: View {
-var body: some View {
-    Text("Sign In")
-        .font(.title)
-        .foregroundColor(.white)
+    
+    var body: some View {
+        Text("Sign In")
+            .font(.title)
+            .foregroundColor(.white)
+            .padding()
     }
 }
 
 struct SigninLabel_Previews: PreviewProvider {
+    
     static var previews: some View {
-        SigninLabel()
-    }
+        VStack {
+            SigninLabel()
+        }
+        .frame(maxWidth: .infinity, maxHeight: .infinity)
+        .background(Color.gray)    }
 }
